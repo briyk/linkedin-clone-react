@@ -1,0 +1,17 @@
+
+.input__option{
+     display: flex;
+     padding: 15px;
+     cursor: pointer;
+     border-radius: 10px;
+     transition: all 0.3s;
+     color: var(--gray-middle-color);
+}
+.input__option:hover{
+     background: rgba(0, 0, 0, 0.08);
+}
+.input__option h4{
+     margin-left: 5px;
+     font-size: 16px;
+     font-weight: 500;
+}

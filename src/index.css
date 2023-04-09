@@ -1,0 +1,28 @@
+:root{
+  --primary-color: #0A66C2 ;
+  --light-blue: #00A0DC ;
+  --gray-light-color: #eef3f8 ;
+  --gray-middle-color: #86888A ;
+  --gray-dark-color: #313335 ;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Noto Sans', sans-serif;
+  background: #f3f2ef;
+}
+
+.app__body{
+  display: flex;
+  padding-inline: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .app__body{
+    flex-direction: column;
+    align-items: center;
+  }
+}

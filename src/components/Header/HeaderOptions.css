@@ -1,0 +1,30 @@
+
+.header__options{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: var(--gray-middle-color);
+     cursor: pointer;
+     transition: all 0.3s ease-in-out;
+     margin: 0 10px;
+     text-align: center;
+}
+.header__options:hover{
+     color: var(--gray-dark-color)
+}
+.header__options h3{
+     font-size: 12px;
+     font-weight: 400;
+}
+
+.header__options img{
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+}
+.header__icon{
+     object-fit: contain;
+     width: 25px;
+     height: 25px ;
+}

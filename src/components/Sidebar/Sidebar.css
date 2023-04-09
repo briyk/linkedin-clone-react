@@ -1,0 +1,123 @@
+.sidebar{
+     position: sticky;
+     top: 80px;
+     flex: 0.2;
+     /* border-radius: 10px; */
+     height: fit-content;
+     margin-top: 20px;
+}
+
+.sidebar__top{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     border-radius: 10px;
+     border: 0.3px solid lightgray;
+     overflow: hidden;
+     background: #fff;
+}
+.sidebar__banner{
+     margin-bottom: -25px;
+     width: 100%;
+}
+.sidebar__avatar{
+     margin-bottom: 20px;
+     border: 2px solid #fff;
+     width: 60px !important;
+     height: 60px !important;
+}
+.sidebar__top h2{
+     font-size: 18px;
+     color: var(--gray-dark-color);
+     margin-bottom: 10px;
+}
+.sidebar__top h5{
+     color: var(--gray-middle-color);
+     font-weight: 400;
+     font-size: 12px;
+     padding-inline: 10px;
+     margin-bottom: 10px;
+}
+
+
+.sidebar__stats{
+     border-top: 0.1px solid lightgray ;
+     border-bottom: 0.1px solid lightgray ;
+     width: 100%;
+     padding: 10px 0;
+}
+.sidebar__stat{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 5px;
+     font-size: 13px;
+     margin: 10px 0;
+     transition: all 0.3s;
+     cursor: pointer;
+     overflow: hidden;
+}
+.sidebar__stat:hover{
+     background-color: rgba(0, 0, 0, 0.08);
+}
+.sidebar__stat span{
+     font-size: 14px;
+     color: var(--light-blue);
+}
+
+.sidebar__saved{
+     display: flex;
+     justify-content: flex-start;
+     width: 100%;
+     padding: 10px;
+     color: var(--gray-middle-color);
+     cursor: pointer;
+     transition: all 0.3s;
+
+}
+.sidebar__saved:hover{
+     background-color: rgba(0, 0, 0, 0.08);
+}
+
+.sidebar__bottom{
+     width: 100%;
+     align-items: left;
+     border-radius: 10px;
+     border: 0.3px solid lightgray;
+     overflow: hidden;
+     background: #fff;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+.sidebar__head{
+     font-size: 14px;
+     padding: 10px;
+}
+.sidebar__item{
+     display: flex;
+     color: var(--gray-middle-color);
+     cursor: pointer;
+     padding: 5px 8px;
+     transition: all 0.3s ease-in;
+}
+.sidebar__item:hover{
+     background-color: rgba(0, 0, 0, 0.08);
+}
+.sidebar__hash{
+     color: var(--gray-dark-color);
+     font-size: 18px;
+     font-weight: bold;
+     margin-right: 5px;
+}
+.sidebar__item{
+     font-size: 13px;
+}
+
+@media screen and (max-width: 992px) {
+     .sidebar{
+       flex: 1 ;
+       position: relative;
+       top: 0
+     }
+   }
